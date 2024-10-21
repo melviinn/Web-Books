@@ -9,20 +9,21 @@ Tree of the repository's files
 ```bash
 .
 ├── README.MD
-└── src
-	├── components
-	│  └── sections
+└── src/
+	├── components/
+	│   └── sections/
 	│
-	├── css
+	├── css/
 	│
 	├── index.html
-	└── public
-		├── fonts
-		│
-		├── icons
-		│	├── brands
-		│
-		└── images
+	│
+	└── public/
+	    ├── fonts/
+	    │
+	    ├── icons/
+	    │   ├── brands/
+	    │
+	    └── images/
 ```
 
 ## Contributor
