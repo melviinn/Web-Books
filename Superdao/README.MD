@@ -21,7 +21,7 @@ Tree of the repository's files
 	    ├── fonts/
 	    │
 	    ├── icons/
-	    │   ├── brands/
+	    │   └── brands/
 	    │
 	    └── images/
 ```
