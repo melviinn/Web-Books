@@ -11,7 +11,7 @@ Tree of the repository's files
 ├── README.MD
 └── src
 	├── components
-	│	└── sections
+	│  └── sections
 	│
 	├── css
 	│
