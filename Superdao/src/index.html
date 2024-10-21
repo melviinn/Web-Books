@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superdao</title>
+    <meta name="description" content="Superdao Landing Page" />
+    <meta name="keywords" content="Superdao, Superdao Landing Page" />
+    <meta name="author" content="@melviinn" />
+    <link rel="icon" href="./public/favicon.ico" />
+    <link rel="preload" as="style" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link
+      rel="preload"
+      as="style"
+      type="text/css"
+      href="css/tablet-queries.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/tablet-queries.css"
+      media="screen and (max-width: 1024px)"
+    />
+    <link
+      rel="preload"
+      as="style"
+      type="text/css"
+      href="css/mobile-queries.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/mobile-queries.css"
+      media="screen and (max-width: 767px)"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <!-- Navbar -->
+      <navbar-component></navbar-component>
+
+      <!-- Hero Section -->
+      <hero-section></hero-section>
+      <div class="gradient">
+        <h2>
+          <span
+            >Get DAO superpowers
+            <img
+              src="./public/images/underline-2.svg"
+              alt="Underline 2 image"
+              class="underline-2"
+            />
+          </span>
+        </h2>
+      </div>
+    </div>
+    <main>
+      <!-- Superpowers Section -->
+      <superpowers-section></superpowers-section>
+
+      <!-- Industry Section -->
+      <industry-section></industry-section>
+
+      <!-- Steps Section -->
+      <steps-section></steps-section>
+
+      <!-- Inspired Section -->
+      <inspired-section></inspired-section>
+
+      <!-- Credits Section -->
+      <credits-section></credits-section>
+
+      <!-- Credits -->
+      <credits-component></credits-component>
+    </main>
+    <!-- Footer -->
+    <dao-footer></dao-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/sections/hero-section.js"></script>
+    <script src="components/sections/superpowers-section.js"></script>
+    <script src="components/sections/industry-section.js"></script>
+    <script src="components/sections/steps-section.js"></script>
+    <script src="components/sections/inspired-section.js"></script>
+    <script src="components/sections/credits-section.js"></script>
+    <script src="components/sections/dao-footer.js"></script>
+    <script src="components/credits.js"></script>
+  </body>
+</html>
