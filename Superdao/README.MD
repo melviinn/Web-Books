@@ -10,15 +10,15 @@ Tree of the repository's files
 .
 ├── README.MD
 └── src/
-	├── components/
-	│   └── sections/
-	├── css/
+	├── components
+	│   └── sections
+	├── css
 	├── index.html
-	└── public/
-	    ├── fonts/
-	    ├── icons/
-	    │   └── brands/
-	    └── images/
+	└── public
+	    ├── fonts
+	    ├── icons
+	    │   └── brands
+	    └── images
 ```
 
 ## Contributor
