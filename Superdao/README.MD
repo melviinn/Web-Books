@@ -12,17 +12,12 @@ Tree of the repository's files
 └── src/
 	├── components/
 	│   └── sections/
-	│
 	├── css/
-	│
 	├── index.html
-	│
 	└── public/
 	    ├── fonts/
-	    │
 	    ├── icons/
 	    │   └── brands/
-	    │
 	    └── images/
 ```
 
